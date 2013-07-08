@@ -1,7 +1,7 @@
 sys-GUI
 =======
 
-This project displays some system variables values using GTK based GUI on linux platform.
+This project displays some system variables values using GTK based GUI on linux platform.Currently it shows temperature of the system.
 
 PREREQUISITES
 =============
