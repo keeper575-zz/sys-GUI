@@ -3,7 +3,7 @@ void main (int argc, char *argv[])
 {
 int i=0;
 gtk_init (&argc, &argv);
-GtkWidget *hello = gtk_message_dialog_new (NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_INFO, GTK_BUTTONS_OK, "Hey");
+GtkWidget *hello = gtk_message_dialog_new (NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_INFO, GTK_BUTTONS_OK, "Temp");
 system("sensors |grep 'temp1'|awk '{print $2}' > temp.txt");
 FILE *fd = fopen("temp.txt","r");
 char msg[6];
